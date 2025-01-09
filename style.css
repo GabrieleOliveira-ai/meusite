@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  width: 100%;
+  box-sizing: border-box;
   overflow-x: hidden;
 }
 
@@ -34,11 +34,22 @@ main {
   background: #f7eced;
   background-size: cover;
   height: 92vh;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 .nav-list {
   list-style: none;
   display: flex;
+}
+
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 .nav-list li {
@@ -67,6 +78,7 @@ main {
     position: absolute;
     top: 8vh;
     right: 0;
+  overflow-x: hidden;
     width: 50vw;
     height: 92vh;
     background: #f7eced;
@@ -160,10 +172,7 @@ font-size: 40px;
 line-height: 30px;
 margin-left: 10px;
 }
-main{
-display: flex;
-flex-direction: row; 
-}
+
 h2{
 line-height:56px; 
 line-height: 10px;
@@ -181,13 +190,25 @@ p{
 font-family: poppinslight; 
 }
 img{
-width: 580px;
+  width: 580px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  
 }
 form{ 
-   display: flex; 
-flex-direction: column; 
-width: 70%;
+  display: flex; 
+  flex-direction: column; 
+  width: 70%;
+  max-width: 500px;
+  margin: 0 auto;
 }
+
+input {
+  width: calc(100% - 40px); /* Ajusta o tamanho */
+  max-width: 100%;
+}
+
 form [type="submit"]{
 height:50px;
 width: 50%;
