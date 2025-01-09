@@ -61,6 +61,11 @@ main {
   body {
     overflow-x: hidden;
   }
+  img, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  }
   .nav-list {
     position: absolute;
     top: 8vh;
