@@ -32,13 +32,19 @@ main {
   background: #f7eced;
   background-size: cover;
   height: 92vh;
+  height: calc(100vh - 8vh); /* 92% do viewport menos o nav */
 }
 
 .nav-list {
   list-style: none;
   display: flex;
+  position: absolute;
+  overflow: hidden; /* Esconde o conteúdo que ultrapassa o container */
 }
 
+h1, h2, p {
+  margin: 0;
+}
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
