@@ -185,6 +185,7 @@ font-family: poppinslight;
 }
 img{
   width: 580px;
+  display: none;
 }
 form{ 
   display: flex; 
