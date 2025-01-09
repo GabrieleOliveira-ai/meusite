@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body{
+  overflow: hidden;
+}
+
 a {
   color: #fb3582;
   text-decoration: none;
