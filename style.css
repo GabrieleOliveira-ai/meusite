@@ -59,7 +59,7 @@ h1, h2, p {
   width: 32px;
   height: 2px;
   background: #f7eced;
-  margin: 8px;
+  margin: 0px;
   transition: 0.3s;
 }
 
