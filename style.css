@@ -46,12 +46,6 @@ main {
   display: flex;
 }
 
-ul, li {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .nav-list li {
   letter-spacing: 3px;
   margin-left: 32px;
@@ -196,13 +190,7 @@ form{
   display: flex; 
   flex-direction: column; 
   width: 70%;
-  max-width: 500px;
   margin: 0 auto;
-}
-
-input {
-  width: calc(100% - 40px); /* Ajusta o tamanho */
-  max-width: 100%;
 }
 
 form [type="submit"]{
