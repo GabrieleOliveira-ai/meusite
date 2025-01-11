@@ -147,6 +147,7 @@ input{
 }
 
 #title{ 
+float: left;
 flex-direction: column;
 line-height: 10px;
 }
